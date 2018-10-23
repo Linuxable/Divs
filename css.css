@@ -1,0 +1,549 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  overflow: hidden;
+}
+body{
+  background-color: black;
+  overflow: hidden;
+  background-image: url("afb/afb1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.balk{
+  width: 100%;
+  height: 5.5%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: .6;
+  z-index: 9;
+}
+.knop1{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 5.5%;
+  width: 4.5%;
+  z-index: 10;
+}
+#window_knop{
+  height: 80%;
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+  outline: none;
+}
+.knop1:hover{
+  background-color: gray;
+}
+#window_knop:hover{
+  cursor: pointer;
+}
+#window{
+  position: absolute;
+  bottom: 5.5%;
+  left: 0px;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+}
+#input{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 90;
+  display: block;
+  overflow: hidden;
+  background-image: url("afb/afb1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#input img{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+#input_div{
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  width: 20%;
+  height: 20%;
+}
+#input h1{
+  color: white;
+  font-weight: 100;
+  position: absolute;
+  top: 44%;
+  left: 45.2%;
+  width: 10%;
+  text-align: center;
+  letter-spacing: .08em;
+}
+#username{
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 19px
+}
+#knop_2{
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 20%;
+  height: 34px;
+  letter-spacing: .08em;
+}
+
+#container{
+  position: absolute;
+  bottom: 5.5%;
+  left: 0px;
+  display: none;
+  width: 100%;
+  height: 85%;
+}
+#container h1{
+  color: white;
+  font-weight: lighter;
+  letter-spacing: .08em;
+  position: absolute;
+  top: 0%;
+  left: 15.5%;
+  font-size: 240%;
+}
+#name_show{
+  color: white;
+  font-weight: lighter;
+  letter-spacing: .08em;
+  position: absolute;
+  top: 0%;
+  right: 15%;
+  font-size: 240%;
+}
+.blokken{
+  overflow: hidden;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  width: 70%;
+  height: 100%;
+}
+.blok{
+  width: 30%;
+  height: 15%;
+  background-color: white;
+  opacity: 1;
+  margin: 10px;
+}
+/*De blokken*/
+#titel{
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+#img0{
+  top: 10%;
+  height: 80%;
+  width: 30%;
+  left: 35%;
+  position: absolute;
+}
+#div1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 31.5%;
+  height: 19.5%;
+  background-color: #5133AB;
+}
+#div1 img{
+  height: 80%;
+  position: absolute;
+  right: 3%;
+  top: 18%;
+}
+#dag, #maand{
+  color: white;
+  position: absolute;
+}
+#maand{
+  top: 15%;
+  right: 32%;
+}
+#dag{
+  top: 42%;
+  font-size: 270%;
+  right: 35%;
+}
+#div2{
+  position: absolute;
+  top: 0px;
+  left: 33%;
+  width: 31.5%;
+  height: 19.5%;
+  background-color: #0B70CA;
+}
+#div3{
+  position: absolute;
+  top: 0px;
+  left: 66%;
+  width: 15%;
+  height: 19.5%;
+  background-color: #D24726;
+}
+#div3 img{
+  position: absolute;
+  width: 45%;
+  left: 27.5%;
+  top: 25%;
+}
+#div4{
+  position: absolute;
+  top: 0px;
+  left: 82.5%;
+  width: 7.5%;
+  height: 9%;
+  background-color: #00FF00;
+}
+#div4 img{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  height: 90%;
+  width: 70%;
+}
+#div5{
+  position: absolute;
+  top: 0px;
+  left: 91.5%;
+  width: 7.5%;
+  height: 9%;
+  background-color:	#8C0095;
+}
+#div5 img{
+  position: absolute;
+  top: 0%;
+  left: 15%;
+  height: 100%;
+  width: 70%;
+}
+#div6{
+  position: absolute;
+  top: 10.5%;
+  left: 82.5%;
+  width: 7.5%;
+  height: 9%;
+  background-color: #e60000;
+}
+#div6 img{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  height: 80%;
+  width: 60%;
+}
+#div7{
+  position: absolute;
+  top: 10.5%;
+  left: 91.5%;
+  width: 7.5%;
+  height: 9%;
+  background-color: #D34726;
+}
+#div7 img{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  height: 90%;
+  width: 70%;
+}
+#div8{
+  position: absolute;
+  top: 21%;
+  left: 0%;
+  width: 15%;
+  height: 19.5%;
+  background-color: #00B8ED;
+}
+#div8 img{
+  top: 15%;
+  height: 70%;
+  width: 50%;
+  left: 25%;
+  position: absolute;
+}
+#div9{
+  position: absolute;
+  top: 21%;
+  left: 16.5%;
+  width: 15%;
+  height: 19.5%;
+  background-color: #AD193D;
+}
+#div9 img{
+  top: 20%;
+  height: 60%;
+  width: 50%;
+  left: 25%;
+  position: absolute;
+}
+#div10{
+  position: absolute;
+  top: 21%;
+  left: 33%;
+  width: 31.5%;
+  height: 19.5%;
+  background-color: white;
+  color: black;
+}
+#titel1{
+  color: black;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+#div10 img{
+  top: 10%;
+  height: 80%;
+  width: 60%;
+  left: 20%;
+  position: absolute;
+}
+#div11{
+  position: absolute;
+  top: 43.5%;
+  left: 0%;
+  width: 31.5%;
+  height: 42%;
+  overflow: auto;
+  background-color: transparent;
+}
+#atom, #notepad, #netflix, #cmd, #word, #chrome{
+  position: relative;
+  left: 0px;
+  width: 100%;
+  height: 20%;
+  letter-spacing: .055em;
+  margin-bottom: 5px;
+}
+#prgt{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+#prim{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+}
+#atom{
+  background-color: #333333;
+  color: white;
+}
+#atom:hover{
+  cursor: pointer;
+}
+#atom:hover #prim{
+  transform: scale(1.2);
+}
+#notepad{
+  background-color: white;
+  color: black;
+}
+#notepad:hover{
+  cursor: pointer;
+}
+#notepad:hover #prim{
+  transform: scale(1.2);
+}
+#netflix{
+  background-color: black;
+  color: red;
+}
+#netflix:hover{
+  cursor: pointer;
+}
+#netflix:hover #prim{
+  transform: scale(1.2);
+}
+#cmd{
+  background-color: #999999;
+  color: black;
+}
+#cmd:hover{
+  cursor: pointer;
+}
+#cmd:hover #prim{
+  transform: scale(1.2);
+}
+#word{
+  background-color: #1a1aff;
+  color: white;
+}
+#word:hover{
+  cursor: pointer;
+}
+#word:hover #prim{
+  transform: scale(1.2);
+}
+#chrome{
+  background-color: white;
+}
+#chrome:hover{
+  cursor: pointer;
+}
+#chrome:hover #prim{
+  transform: scale(1.2);
+}
+#div12{
+  position: absolute;
+  top: 21%;
+  left: 66%;
+  width: 33%;
+  height: 19.5%;
+  background-color: #DC0075;
+  font-weight: normal;
+}
+#div12 img{
+  top: 5%;
+  height: 90%;
+  width: 40%;
+  left: 30%;
+  position: absolute;
+}
+#div13{
+  position: absolute;
+  top: 43.5%;
+  left: 33%;
+  width: 67.5%;
+  height: 42%;
+}
+#div13 img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+/*Hovers*/
+#div1:hover{
+  cursor: pointer;
+}
+#div1:hover #img{
+  transform: scale(1.2);
+}
+#div1:hover #dag{
+  color: #1c123b;
+}
+/* Volgende Div*/
+#div2:hover{
+  cursor: pointer;
+}
+#div2:hover #img0{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div3:hover{
+  cursor: pointer;
+}
+#div3:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div4:hover{
+  cursor: pointer;
+}
+#div4:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div5:hover{
+  cursor: pointer;
+}
+#div5:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div6:hover{
+  cursor: pointer;
+}
+#div6:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div7:hover{
+  cursor: pointer;
+}
+#div7:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div8:hover{
+  cursor: pointer;
+}
+#div8:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div9:hover{
+  cursor: pointer;
+}
+#div9:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div10:hover{
+  cursor: pointer;
+}
+#div10:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div12:hover{
+  cursor: pointer;
+}
+#div12:hover #img{
+  transform: scale(1.2);
+}
+/* Volgende Div*/
+#div13:hover{
+  cursor: pointer;
+}
+#div13:hover #img{
+  transform: scale(1.05);
+}
+/* Wat de scrollbar betreft:*/
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    background: white;;
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10%;
+}
+::-webkit-scrollbar-thumb:hover {
+     background-color: darkgray;
+}
